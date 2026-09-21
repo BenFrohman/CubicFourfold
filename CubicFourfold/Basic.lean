@@ -18,8 +18,7 @@ axiom SmoothCubicFourfold : Type
 /-- Hodge conjecture on this host. Literature, not constructed here. -/
 axiom HodgeConjecture : SmoothCubicFourfold → Prop
 
-/-- Named sentence: Zucker 1977. -/
-theorem zucker_hodge (X : SmoothCubicFourfold) : HodgeConjecture X := by
-  sorry
+/-- Named sentence: Zucker 1977. Not a CycleSection. Not general_fourfold. -/
+axiom zucker_hodge (X : SmoothCubicFourfold) : HodgeConjecture X
 
 end CubicFourfold
