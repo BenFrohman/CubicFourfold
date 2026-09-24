@@ -1,7 +1,8 @@
 # CubicFourfold
 
-Author of this record: Benjamin Stanley Frohman ([@BenFrohman](https://github.com/BenFrohman)).
-Copyright (c) 2026 Benjamin Stanley Frohman. Apache-2.0.
+**Author:** Benjamin Stanley Frohman ([@BenFrohman](https://github.com/BenFrohman))
+**Copyright:** (c) 2026 Benjamin Stanley Frohman.
+**License:** Apache-2.0. See `LICENSE` and `COPYRIGHT`.
 
 This repository is **not** a proof of the Hodge conjecture.
 It records the *known* case of Hodge for cubic fourfolds in P^5.
@@ -23,8 +24,18 @@ still algebraic; that is part of Zucker’s theorem, not Noether–Lefschetz.
 
 ## What this is not
 
-- Not [BenFrohman/NoetherLefschetz](https://github.com/BenFrohman/NoetherLefschetz) (`d ≥ 6`, no extra class).
-- Not [BenFrohman/FermatPlanes](https://github.com/BenFrohman/FermatPlanes) (easy arrow on Fermat quartic).
-- Not [BenFrohman/HODGE](https://github.com/BenFrohman/HODGE) `HodgeConjecture.general_fourfold` (open extra-class fourfold).
+- Not [NoetherLefschetz](https://github.com/BenFrohman/NoetherLefschetz) (`d ≥ 6`, no extra class).
+- Not [FermatPlanes](https://github.com/BenFrohman/FermatPlanes) (easy arrow on Fermat quartic).
+- Not [HODGE](https://github.com/BenFrohman/HODGE) `HodgeConjecture.general_fourfold` (open extra-class fourfold).
 - Not a `CycleSection`.
 - Not a Clay prize claim.
+
+## Sister repositories
+
+- [HODGE](https://github.com/BenFrohman/HODGE)
+- [FermatPlanes](https://github.com/BenFrohman/FermatPlanes)
+- [NoetherLefschetz](https://github.com/BenFrohman/NoetherLefschetz)
+- [StandardConjectures](https://github.com/BenFrohman/StandardConjectures)
+- [TateConjecture](https://github.com/BenFrohman/TateConjecture)
+- [DerivedCategories](https://github.com/BenFrohman/DerivedCategories)
+- [HODGE-DISPROOF](https://github.com/BenFrohman/HODGE-DISPROOF)
