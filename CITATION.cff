@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you reference this classical literature ledger and exposition, please cite it as below."
+title: "The Hodge Conjecture for Smooth Cubic Fourfolds: Classical Fano Variety of Lines Correspondence and Lean 4 Axiomatic Specification"
+type: software
+authors:
+  - family-names: "Frohman"
+    given-names: "Benjamin Stanley"
+    orcid: "https://orcid.org/0009-0006-7068-3718"
+date-released: "2026-10-03"
+doi: "10.5281/zenodo.23125636"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23125636"
+  - type: doi
+    value: "10.5281/zenodo.23125635"
+license: "Apache-2.0"
+repository-code: "https://github.com/BenFrohman/CubicFourfold"
+url: "https://github.com/BenFrohman/CubicFourfold"
+keywords:
+  - "cubic fourfold"
+  - "Fano variety of lines"
+  - "Zucker theorem"
+  - "Hodge conjecture"
+  - "Lean 4"
+abstract: >-
+  Expository note and Lean 4 axiomatic specification recording the classical
+  theorem of Zucker (1977) and Beauville–Donagi (1985) that the rational Hodge
+  conjecture holds for every smooth cubic fourfold X in P^5 via the incidence
+  correspondence of the Fano variety of lines F(X). Explicitly scoped as a
+  classical literature boundary ledger (zero sorry) and not a claim on the
+  general fourfold Hodge conjecture. Author: Benjamin Stanley Frohman.
