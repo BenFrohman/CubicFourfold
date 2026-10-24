@@ -27,3 +27,7 @@ Special cubics (Hassett divisors) can have extra algebraic $(2,2)$ classes; thos
 - Not [BenFrohman/HODGE](https://github.com/BenFrohman/HODGE) `HodgeConjecture.general_fourfold` (open extra-class fourfold).
 - Not a `CycleSection` for general projective fourfolds.
 - Not a Clay Millennium Prize claim.
+
+## License
+
+Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0 (see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE)).
