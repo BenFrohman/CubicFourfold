@@ -14,13 +14,20 @@ Not imported by BenFrohman/HODGE.
 
 namespace CubicFourfold
 
-/-- Placeholder host. Not a scheme. -/
-axiom SmoothCubicFourfold : Type
+/-- Zucker (1977): the Hodge conjecture holds on every smooth cubic fourfold.
+Named hypothesis. `SmoothCubicFourfold` and `HodgeConjecture` are parameters
+supplied by the caller; this file does not construct them. -/
+def ZuckerHodge (SmoothCubicFourfold : Type) (HodgeConjecture : SmoothCubicFourfold → Prop) :
+    Prop :=
+  ∀ X : SmoothCubicFourfold, HodgeConjecture X
 
-/-- Hodge conjecture on this host. Literature, not constructed here. -/
-axiom HodgeConjecture : SmoothCubicFourfold → Prop
+/-- Hodge on a given cubic fourfold, conditional on `ZuckerHodge`. -/
+theorem zucker_hodge {SmoothCubicFourfold : Type} {HodgeConjecture : SmoothCubicFourfold → Prop}
+    (h : ZuckerHodge SmoothCubicFourfold HodgeConjecture) (X : SmoothCubicFourfold) :
+    HodgeConjecture X :=
+  h X
 
-/-- Named sentence: Zucker 1977. Not a reconstructed proof. -/
-axiom zucker_hodge (X : SmoothCubicFourfold) : HodgeConjecture X
+/-- Satisfiability: the hypothesis is consistent (trivial model). -/
+example : ZuckerHodge Unit (fun _ => True) := fun _ => trivial
 
 end CubicFourfold

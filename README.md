@@ -15,7 +15,7 @@ A smooth cubic fourfold $X \subset \mathbb{P}^5$ has middle Hodge numbers
 $$h^{4,0}=0,\quad h^{3,1}=1,\quad h^{2,2}=21,\quad h^{1,3}=1,\quad h^{0,4}=0 \qquad (b_4 = 23).$$
 
 The rational Hodge conjecture for every such $X$ is a classical theorem of Zucker (1977), proved via the Fano variety of lines $F(X)$ and the incidence correspondence (cf. Beauville–Donagi 1985).
-`CubicFourfold/Basic.lean` names that classical theorem axiomatically (`zucker_hodge`) with zero `sorry`. It does not replay the geometric construction and does not claim a new proof of the general fourfold Hodge conjecture.
+`CubicFourfold/Basic.lean` states that classical theorem as the named hypothesis `ZuckerHodge`, taken as an explicit argument by `zucker_hodge`, with a trivial satisfiability example. No `sorry`, no axioms. The repository has no lakefile; check with `lean CubicFourfold/Basic.lean`. It does not replay the geometric construction and does not claim a new proof of the general fourfold Hodge conjecture.
 
 A *very general* cubic still has rational Hodge lattice $\mathrm{Hdg}^2(X) = \mathbb{Q} h^2$.
 Special cubics (Hassett divisors) can have extra algebraic $(2,2)$ classes; those extra classes are still algebraic by Zucker's theorem, which is distinct from high-degree Noether–Lefschetz vanishing.
