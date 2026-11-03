@@ -1,6 +1,9 @@
 <!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # CubicFourfold
 
+**Author:** Benjamin Stanley Frohman ([@BenFrohman](https://github.com/BenFrohman))
+**Copyright:** (c) 2026 Benjamin Stanley Frohman.
+**License:** Apache-2.0. See `LICENSE` and `COPYRIGHT`.
 **Author:** Benjamin Stanley Frohman ([@BenFrohman](https://github.com/BenFrohman), ORCID: [0009-0006-7068-3718](https://orcid.org/0009-0006-7068-3718))  
 **Published Zenodo DOI:** [10.5281/zenodo.23125636](https://doi.org/10.5281/zenodo.23125636) (Concept DOI: [10.5281/zenodo.23125635](https://doi.org/10.5281/zenodo.23125635))  
 **License:** Apache-2.0
@@ -22,6 +25,21 @@ Special cubics (Hassett divisors) can have extra algebraic $(2,2)$ classes; thos
 
 ## What this is not
 
+- Not [NoetherLefschetz](https://github.com/BenFrohman/NoetherLefschetz) (`d ≥ 6`, no extra class).
+- Not [FermatPlanes](https://github.com/BenFrohman/FermatPlanes) (easy arrow on Fermat quartic).
+- Not [HODGE](https://github.com/BenFrohman/HODGE) `HodgeConjecture.general_fourfold` (open extra-class fourfold).
+- Not a `CycleSection`.
+- Not a Clay prize claim.
+
+## Sister repositories
+
+- [HODGE](https://github.com/BenFrohman/HODGE)
+- [FermatPlanes](https://github.com/BenFrohman/FermatPlanes)
+- [NoetherLefschetz](https://github.com/BenFrohman/NoetherLefschetz)
+- [StandardConjectures](https://github.com/BenFrohman/StandardConjectures)
+- [TateConjecture](https://github.com/BenFrohman/TateConjecture)
+- [DerivedCategories](https://github.com/BenFrohman/DerivedCategories)
+- [HODGE-DISPROOF](https://github.com/BenFrohman/HODGE-DISPROOF)
 - Not [BenFrohman/NoetherLefschetz](https://github.com/BenFrohman/NoetherLefschetz) ($d \ge 6$, no extra class).
 - Not [BenFrohman/FermatPlanes](https://github.com/BenFrohman/FermatPlanes) (easy arrow on the Fermat quartic).
 - Not [BenFrohman/HODGE](https://github.com/BenFrohman/HODGE) `HodgeConjecture.general_fourfold` (open extra-class fourfold).
