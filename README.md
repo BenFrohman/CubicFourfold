@@ -49,3 +49,7 @@ Special cubics (Hassett divisors) can have extra algebraic $(2,2)$ classes; thos
 ## License
 
 Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0 (see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE)).
+
+## Zenodo archive
+
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23867501.svg)](https://doi.org/10.5281/zenodo.23867501) The Hodge Conjecture for Smooth Cubic Fourfolds: Classical Fano Variety of Lines Correspondence and Lean 4 Axiomatic Specification — all versions: [10.5281/zenodo.23867501](https://doi.org/10.5281/zenodo.23867501); latest version: [10.5281/zenodo.23867502](https://doi.org/10.5281/zenodo.23867502)
